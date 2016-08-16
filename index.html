@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Instanews App</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- <script src="../Instanews App/JS/scripts.js"></script>  -->
+        <script src="../Instanews App/Build/JS/scripts-min.js"></script> 
+        <link rel="stylesheet" href="Build/CSS/all.css">    
+        <!-- <link rel="stylesheet" href="css/foundation.scss">
+        <link rel="stylesheet" href="css/main.scss"> -->
+    </head>
+    <body class="background">
+        <div class="landing full-height flex margin-bottom-lg">
+            <img src="images/nyt-logo.svg" alt="New York Times Logo">
+            <div class="select-section flex flex-column justify-center">
+                <p>Choose a section</p>
+                <select id="sectSelect">
+                    <option value="">Select...</option>
+                    <option value="home">Home</option>
+                    <option value="opinion">Opinion</option>
+                    <option value="world">World</option>
+                    <option value="national">National</option>
+                    <option value="technology">Technology</option>
+                    <option value="science">Science</option>
+                    <option value="health">Health</option>
+                    <option value="sports">Sports</option>
+                    <option value="books">Books</option>
+                    <option value="movies">Movies</option>
+                </select>
+            </div>
+        </div>
+        <div class="overlay flex flex-wrap">
+            <div class="original col-1-4 col-1-1-mobile mobile-col-1-1 col-1-2-mobile fablet-col-1-2 tablet-col-1-3 mobile-padding">
+                <div class="pic"></div>
+                <div class="abstract margin-left-lg margin-right-lg"></div>
+            </div>
+        </div>
+        <footer class="fixed">&#169;2016 Instanews</footer>
+    </body>
+</html>
